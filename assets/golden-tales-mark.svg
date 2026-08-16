@@ -1,0 +1,8 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="256" cy="256" r="239" fill="#30261F" stroke="#D5A34D" stroke-width="3"/>
+  <circle cx="256" cy="256" r="211" stroke="#D5A34D" stroke-width="1.5" opacity=".7"/>
+  <path d="M256 146C265 196 286 217 336 226C286 235 265 256 256 306C247 256 226 235 176 226C226 217 247 196 256 146Z" fill="#E1B85F" opacity=".42"/>
+  <text x="256" y="260" text-anchor="middle" fill="#FFF9ED" font-family="'Playfair Display', Didot, Georgia, serif" font-size="62" font-weight="500" letter-spacing="-4">golden <tspan font-style="italic">tales</tspan></text>
+  <line x1="151" y1="285" x2="361" y2="285" stroke="#D5A34D" stroke-width="2" opacity=".85"/>
+  <text x="256" y="320" text-anchor="middle" fill="#D5A34D" font-family="Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="4">SOCIAL STORYTELLING</text>
+</svg>
