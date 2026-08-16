@@ -1,0 +1,14 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="soft-shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#21170e" flood-opacity=".24"/>
+    </filter>
+  </defs>
+  <g filter="url(#soft-shadow)" fill="#FFF9ED">
+    <path d="M304 184C309 210 320 221 346 226C320 231 309 242 304 268C299 242 288 231 262 226C288 221 299 210 304 184Z"/>
+    <text x="365" y="260" font-family="'Playfair Display', Didot, Georgia, serif" font-size="154" font-weight="500" letter-spacing="-9">golden</text>
+    <text x="842" y="260" font-family="'Playfair Display', Didot, Georgia, serif" font-size="161" font-style="italic" font-weight="500" letter-spacing="-10">tales</text>
+    <line x1="490" y1="310" x2="1040" y2="310" stroke="#FFF9ED" stroke-width="2" opacity=".75"/>
+    <text x="765" y="347" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="500" letter-spacing="11">SOCIAL STORYTELLING</text>
+  </g>
+</svg>

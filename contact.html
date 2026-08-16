@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Golden Tales Media to tell us about your upcoming celebration." />
+    <title>Contact — Golden Tales Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="contact-page">
+    <div class="grain"></div>
+    <div class="site-shell">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Golden Tales Media home"><img src="assets/golden-tales-mark.svg" alt="Golden Tales Media" /></a>
+        <div class="nav-links"><a href="index.html#services">Services</a><a href="contact.html">Contact</a></div>
+        <a class="nav-cta" href="mailto:goldentalessupport@gmail.com">Email us <span>↗</span></a>
+      </nav>
+      <main>
+        <section class="contact-form section-pad">
+          <div class="contact-form-copy reveal">
+            <p class="eyebrow"><span></span> Tell us your story</p>
+            <h1>Let's make some<br /><em>magic.</em></h1>
+            <p>We'd love to capture your special day and cannot wait to hear all about it. Share a few details below and we'll be in touch.</p>
+            <a href="mailto:goldentalessupport@gmail.com" class="email-link">goldentalessupport@gmail.com <span>↗</span></a>
+          </div>
+          <form class="inquiry-form reveal delay-1" action="https://formsubmit.co/goldentalessupport@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Golden Tales website enquiry" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <label>Your name<input name="name" type="text" autocomplete="name" required /></label>
+            <label>Email address<input name="email" type="email" autocomplete="email" required /></label>
+            <label>Phone number<input name="phone" type="tel" autocomplete="tel" placeholder="(123) 456-7890" required /></label>
+            <label>What are we celebrating?<input name="event" type="text" placeholder="Wedding, birthday, brand event..." required /></label>
+            <div class="form-row"><label>Event date<input name="date" type="date" /></label><label>Event location<input name="location" type="text" /></label></div>
+            <label>Tell us a little more<textarea name="details" rows="4" placeholder="Your vision, the energy, the little details..."></textarea></label>
+            <button class="button button-dark" type="submit">Send inquiry <span>↗</span></button>
+          </form>
+        </section>
+        <section class="contact-page-foot section-pad"><span>GOLDEN TALES MEDIA</span><a href="index.html">← Back home</a><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram ↗</a></section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
